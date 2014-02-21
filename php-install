@@ -1,0 +1,13 @@
+read -p "Install PHP55? [y/n]" response
+if [[ $response == "y" ]]; then
+  brew tap homebrew/dupes
+  brew tap josegonzalez/homebrew-php
+  brew install php55
+  brew install php55-xdebug
+  brew install php55-imagick
+  brew install php55-mcrypt
+  brew install mysql
+  brew install josegonzalez/php/composer
+
+  echo ""
+fi
