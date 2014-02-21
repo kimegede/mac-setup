@@ -1,6 +1,7 @@
 # Setup OS X
 
 Setup your MAC with Homebrew, installing different kind of tools. (Ex. git, git-extras, vim, wget ect.)
+Will ask if you want to install PHP55 + depencies
 
 ## Installation
 

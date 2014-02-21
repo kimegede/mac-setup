@@ -12,3 +12,16 @@ for i in ${!modules[*]}
 do
   which -s ${modules[$i]} || brew install ${modules[$i]}
 done
+
+  # Ask user to install PHP 5.5 + xdebug + imagick + mcrypt + mysql + composer
+read -p "Install PHP 5.5 & related modules? [y/n]" response
+if [[ $response == "y" ]]; then
+  brew tap homebrew/dupes
+  brew tap josegonzalez/homebrew-php
+  brew install php55
+  brew install php55-xdebug
+  brew install php55-imagick
+  brew install php55-mcrypt
+  brew install mysql
+  brew install josegonzalez/php/composer
+fi
