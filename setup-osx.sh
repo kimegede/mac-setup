@@ -13,4 +13,5 @@ do
   which -s ${modules[$i]} || brew install ${modules[$i]}
 done
 
-source php-install
+source osx/app-installer
+source osx/php-installer

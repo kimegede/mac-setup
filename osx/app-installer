@@ -1,0 +1,23 @@
+read -p "Install Homebrew Cask? [y/n]" response
+if [[ $response == "y" ]]; then
+  brew tap phinze/cask
+  brew install brew-cask
+  brew tap caskroom/versions
+
+  ## Chat
+  brew cask install adium
+  brew cask install skype
+  brew cask install linkinus
+
+  ## Browser
+  brew cask install google-chrome-beta
+  brew cask install firefox
+
+  ## Development
+  brew cask install iterm2
+  brew cask install sequel-pro
+  brew cask install macfusion
+
+  ## Utility
+  brew cask install witch
+fi
