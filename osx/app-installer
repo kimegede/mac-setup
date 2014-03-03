@@ -4,6 +4,9 @@ if [[ $response == "y" ]]; then
   brew install brew-cask
   brew tap caskroom/versions
 
+  ## Generel
+  brew cask install adobe-reader
+
   ## Chat
   brew cask install adium
   brew cask install skype
