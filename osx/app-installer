@@ -20,4 +20,5 @@ if [[ $response == "y" ]]; then
 
   ## Utility
   brew cask install witch
+  brew cask install glimmerblocker
 fi
