@@ -13,3 +13,16 @@ Will ask if you want to install PHP55 + depencies
 $ chmod +x setup-osx.sh
 $ ./setup-osx.sh
 ```
+
+# Tools
+
+## Flush DNS
+
+```~/.mac-setup/tools/flushdns.sh```
+
+## Fix sound
+
+MAC have a weird problem, after sleep sounds can disappear.
+Run this command to fix it.
+
+```~/.mac-setup/tools/fix.sh```
