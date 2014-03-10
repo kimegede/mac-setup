@@ -15,3 +15,4 @@ done
 
 source osx/app-installer
 source osx/php-installer
+source osx/osx-variables
