@@ -30,5 +30,5 @@ defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
 # Show hidden files in finder
-defaults write com.apple.Finder AppleShowAllFiles YES
+defaults write com.apple.finder AppleShowAllFiles YES
 
