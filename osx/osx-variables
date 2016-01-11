@@ -32,3 +32,5 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 # Show hidden files in finder
 defaults write com.apple.Finder AppleShowAllFiles YES
 
+# Stop Finder/OSX From creating TemporaryItems and .apdisk on Network shares
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
