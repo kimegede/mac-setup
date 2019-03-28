@@ -13,6 +13,10 @@ do
   which -s ${modules[$i]} || brew install ${modules[$i]}
 done
 
+# Symlink bin folder to path
+ln -s ~/.mac-setup/bin ~/bin && export PATH=$PATH:~/bin
+
+# Load "modules"
 source osx/app-installer
 source osx/php-installer
 source osx/osx-variables
